@@ -1,0 +1,37 @@
+<div class="max-w-5xl mx-auto px-6 pt-24 pb-16">
+    <button onclick="showScreen('home')" class="text-gray-500 hover:text-white text-sm mb-6 flex items-center gap-1">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg> Back
+    </button>
+    <h2 class="text-3xl font-bold text-white mb-2">Find More Songs</h2>
+    <p class="text-gray-500 mb-8">Browse all available CustomsForge songs by an artist and see which ones you already have.</p>
+
+    <!-- Search -->
+    <div class="flex gap-3 mb-6">
+        <input type="text" id="fm-artist" placeholder="Enter artist name..."
+            onkeydown="if(event.key==='Enter')fmSearch()"
+            class="flex-1 bg-dark-700 border border-gray-800 rounded-xl px-4 py-2.5 text-sm text-gray-300 placeholder-gray-600 focus:border-accent/50 outline-none">
+        <button onclick="fmSearch()" id="fm-search-btn"
+            class="bg-dark-600 hover:bg-dark-500 px-5 py-2.5 rounded-xl text-sm text-gray-300 transition">Search</button>
+    </div>
+
+    <!-- Filter -->
+    <div id="fm-filter-bar" class="hidden flex gap-3 mb-6 items-center">
+        <span class="text-sm text-gray-500">Show:</span>
+        <button onclick="fmFilter('all')" id="fm-f-all" class="px-3 py-1 rounded-lg text-xs transition bg-accent text-white">All</button>
+        <button onclick="fmFilter('available')" id="fm-f-available" class="px-3 py-1 rounded-lg text-xs transition bg-dark-600 text-gray-400 hover:bg-dark-500">Available</button>
+        <button onclick="fmFilter('owned')" id="fm-f-owned" class="px-3 py-1 rounded-lg text-xs transition bg-dark-600 text-gray-400 hover:bg-dark-500">Owned</button>
+    </div>
+
+    <!-- Stats -->
+    <div id="fm-stats" class="hidden mb-6 flex gap-4 text-sm">
+        <span class="text-gray-400">Total: <span id="fm-total" class="text-white font-semibold"></span></span>
+        <span class="text-green-400">Owned: <span id="fm-owned" class="font-semibold"></span></span>
+        <span class="text-amber-400">Available: <span id="fm-available" class="font-semibold"></span></span>
+    </div>
+
+    <!-- Loading -->
+    <div id="fm-loading" class="hidden text-gray-500 text-sm py-8 text-center">Searching CustomsForge...</div>
+
+    <!-- Results table -->
+    <div id="fm-results" class="space-y-1"></div>
+</div>

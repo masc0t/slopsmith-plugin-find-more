@@ -1,0 +1,10 @@
+{
+  "id": "find_more",
+  "name": "Find More Songs",
+  "version": "1.0.0",
+  "private": false,
+  "nav": { "label": "Find More", "screen": "find-more" },
+  "screen": "screen.html",
+  "script": "screen.js",
+  "routes": "routes.py"
+}
