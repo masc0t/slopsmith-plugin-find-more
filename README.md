@@ -21,7 +21,8 @@ Search results are powered by [RSPlaylist](https://rsplaylist.com/search/) and d
 
 ##
 
-<img width="997" height="677" alt="find more 2" src="https://github.com/user-attachments/assets/f762e864-d340-4723-a13b-5d9b244f1540" />
+<img width="1012" height="653" alt="find more 3" src="https://github.com/user-attachments/assets/f6ed3c82-8867-49aa-a537-24811432392c" />
+
 
 
 ## Installation
