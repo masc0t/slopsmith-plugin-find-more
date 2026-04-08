@@ -1,6 +1,6 @@
 # Slopsmith Plugin: Find More Songs
 
-A plugin for [Slopsmith](https://github.com/byrongamatos/slopsmith) that searches [CustomsForge](https://ignition4.customsforge.com/) for more songs by an artist and shows which ones you already have in your library.
+A plugin for [Slopsmith](https://github.com/byrongamatos/slopsmith) that searches [CustomsForge](https://ignition4.customsforge.com/) for more songs by an artist and shows you more songs to add to your collection.
 
 Search results are powered by [RSPlaylist](https://rsplaylist.com/search/) and do not require a CustomsForge account.
 
