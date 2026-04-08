@@ -18,7 +18,7 @@
             const link = document.createElement('a');
             link.textContent = ' [find more]';
             link.className = 'text-accent/60 hover:text-accent cursor-pointer';
-            link.title = 'Find more songs by ' + artist;
+            link.title = 'Find more ' + artist + ' to add to your collection';
             link.onclick = (e) => {
                 e.stopPropagation();
                 document.getElementById('fm-artist').value = artist;
@@ -45,7 +45,7 @@
             const link = document.createElement('a');
             link.textContent = '[find more]';
             link.className = 'ml-2 text-xs text-accent/60 hover:text-accent cursor-pointer';
-            link.title = 'Find more songs by ' + artist;
+            link.title = 'Find more ' + artist + ' to add to your collection';
             link.onclick = (e) => {
                 e.stopPropagation();
                 document.getElementById('fm-artist').value = artist;
