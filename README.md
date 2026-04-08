@@ -4,6 +4,7 @@ A plugin for [Slopsmith](https://github.com/byrongamatos/slopsmith) that searche
 
 Search results are powered by [RSPlaylist](https://rsplaylist.com/search/) and do not require a CustomsForge account.
 
+
 ## Features
 
 - **Artist search** — find all available CDLC on CustomsForge for any artist
@@ -13,6 +14,15 @@ Search results are powered by [RSPlaylist](https://rsplaylist.com/search/) and d
 - **CustomsForge links** — click any row to open the song's page on CustomsForge
 - **Library integration** — **[find more]** links appear next to artist names in both grid and tree views
 - **Auto-populate** — opens with the current song's artist when navigating from the player
+
+##
+
+<img width="312" height="413" alt="find more 1" src="https://github.com/user-attachments/assets/035e24d0-bc9e-4a11-ae3a-91af180799be" />
+
+##
+
+<img width="997" height="677" alt="find more 2" src="https://github.com/user-attachments/assets/f762e864-d340-4723-a13b-5d9b244f1540" />
+
 
 ## Installation
 
@@ -36,3 +46,5 @@ No additional dependencies — uses only Python standard library modules.
 ## License
 
 MIT
+
+
