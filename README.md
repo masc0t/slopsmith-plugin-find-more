@@ -43,6 +43,10 @@ docker compose restart
 
 No additional dependencies — uses only Python standard library modules.
 
+## Other Plugins
+
+- [Virtual Capo](https://github.com/masc0t/slopsmith-plugin-midi-capo) — auto-send MIDI pitch shift to match each song's tuning during playback
+
 ## License
 
 MIT
