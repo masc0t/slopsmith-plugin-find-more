@@ -40,6 +40,10 @@ docker compose restart
 3. Results are compared against your local library to show what you already own
 4. Click any Available row to open its CustomsForge page for download
 
+## Known Issues
+
+RSPlaylist only returns 20 results, so this plugin is less useful for artists with heaps of DLC such as Metallica
+
 ## Requirements
 
 No additional dependencies — uses only Python standard library modules.
