@@ -50,7 +50,7 @@ No additional dependencies — uses only Python standard library modules.
 
 ## Other Plugins
 
-- [Virtual Capo](https://github.com/masc0t/slopsmith-plugin-midi-capo) — auto-send MIDI pitch shift to match each song's tuning during playback (Fractal Audio)
+- [Virtual Capo](https://github.com/masc0t/slopsmith-plugin-midi-capo) — auto-send MIDI pitch shift to match each song's tuning during playback (amp modellers)
 - [Invert Highway](https://github.com/masc0t/slopsmith-plugin-invert-highway) — flip the chord note stacking order on the highway
 
 ## License
